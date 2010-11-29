@@ -39,11 +39,4 @@ class Tumblr
 
     req.end()
 
-tumblr = new Tumblr 'iwdrm'
-
-console.log tumblr.headers()
-
-tumblr.httpRequest (posts) ->
-  console.log posts
-
 # vim: ft=coffee
